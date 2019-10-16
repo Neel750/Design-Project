@@ -1,0 +1,57 @@
+{% include "header.html" %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VTS Thank You!</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <style>
+            html, body {
+                min-height: 100%;
+            }
+            body, div, form, input, select, p { 
+                padding: 0;
+                margin: 0;
+                outline: none;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 16px;
+                color: #eee;
+            }
+            body {
+                
+                background-size: cover;
+            }
+            h1, h2 {
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+            h2 {
+                margin: 0 0 0 8px;
+            }
+
+            .main-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                padding: 25px;
+                background: rgba(0, 0, 0, 0.5); 
+                }
+            .center-part{
+                padding: 150px;
+                text-align: center;
+            }
+            .fa-graduation-cap {
+                font-size: 72px;
+            }
+        </style>
+        <div class="main-block">
+            <div class="center-part">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Thank You!</h1>
+                <p>VTS will mail you when we find your vehicle location!</p>
+            </div>
+        </div>
+    {% include "footer.html" %}    
+  </html>

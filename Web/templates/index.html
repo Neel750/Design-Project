@@ -1,0 +1,40 @@
+{% include "header.html" %}
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Vehicle Tracking Station</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <br>
+  <br>
+      <div class="container bg-light">
+        <div id="site_content">
+          <div class="sidebar">
+            <div id="content">
+              <!-- insert the page content here -->
+              <h1><strong>Welcome to the Vehicle Tracking Station</strong></h1>
+              <p>Our main goal is to use system for people with the help of government.</p>
+              <p>We use CCTV of e-memo system to help the people.</p>
+              <p>We take details of your lost vehicle and help you to find in sometime!</p>
+              <p>After getting details of your vehicle we check that number plate at every CCTV of that city!</p>
+              <p>Still not registerd <a href="/registration">Register Here</a></p>
+              <p>If you have any query<a href="/contact"> Contact Us!</a></p>
+            </div>
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="www.rtogujarat.gov.in">RTO</a></li>
+              <li><a href="www.police.gujarat.gov.in">POLICE STATION</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+      {% include "footer.html" %}
+</body>
+</html>
